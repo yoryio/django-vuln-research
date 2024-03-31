@@ -2,7 +2,7 @@
 
 ## Vulnerabilities
 
-### CVE-2022-34265
+### [CVE-2022-34265](https://nvd.nist.gov/vuln/detail/CVE-2022-34265)
 
 ### CVE-2020-13524
 
