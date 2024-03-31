@@ -7,7 +7,7 @@
 - **CWE-89**: Improper Neutralization of Special Elements used in an SQL Command
 - **CVSS**: 9.8 CRITICAL
 - **EPSS**: 0.54%
-- 
+
 ##### Cause
 
 - SQL Injection due to an Improper Neutralization of special elements used in the following functions with these arguments:
