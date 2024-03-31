@@ -4,22 +4,25 @@
 
 ### [CVE-2022-34265](https://www.cvedetails.com/cve/CVE-2022-34265)
 
-#### Description
-
 - **CWE-89**: Improper Neutralization of Special Elements used in an SQL Command
 - **CVSS**: 9.8 CRITICAL
 - **EPSS**: 0.54%
+- 
 ##### Cause
 
 - SQL Injection due to an Improper Neutralization of special elements used in the following functions with these arguments:
 	- `Trunc()` - `kind`
 	- `Extract()` - `lookup_name`
+
 ##### Impact
 
-- Complete compromise of a user information
+- Complete compromise of user information
+
 #### Commit
 
-- [# Refs CVE-2022-34265 -- Properly escaped Extract() and Trunc() parameters.](https://github.com/django/django/pull/15820/commits/877c800f255ccaa7abde1fb944de45d1616f5cc9)
+- [Refs CVE-2022-34265 -- Properly escaped Extract() and Trunc() parameters.](https://github.com/django/django/pull/15820/commits/877c800f255ccaa7abde1fb944de45d1616f5cc9)
+- [Refs CVE-2022-34265 -- Unified DatabaseOperations._convert_*_to_tz() hook names.](https://github.com/django/django/commit/5e2f4ddf2940704a26a4ac782b851989668d74db)
+
 #### PoC
 
 ```bash
